@@ -1,0 +1,20 @@
+.header {
+  height: var(--header-height);
+  background: rgba(0,0,0,.8);
+  color: #fff;
+  min-height: var(--header-height);
+  position: relative;
+  padding: 0 10px;
+  display: flex;
+}
+
+.headerTitle {
+  flex-grow: 1;
+  line-height: var(--header-height);
+  font-size: var(--font-size-large);
+  font-weight: var(--text-weight-bold);
+}
+
+.actionButton {
+  margin: auto 10px auto 10px;
+}

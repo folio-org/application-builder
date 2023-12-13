@@ -1,0 +1,9 @@
+services:
+  app-builder:
+    container_name: app-builder
+    image: application-builder:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 7000:80

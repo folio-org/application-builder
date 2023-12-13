@@ -1,0 +1,76 @@
+.editor {
+  height: calc(100vh - var(--header-height));
+  background-color: white;
+  min-width: 350px;
+  overflow: auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  margin: auto 0;
+  height: var(--small-header-height);
+  background: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.headerTitle {
+  font-weight: var(--text-weight-bold);
+  flex-grow: 1;
+  margin: auto;
+  text-align: center;
+}
+
+.actionButton {
+  margin: auto 10px auto 10px;
+}
+
+.form {
+  margin: 0 10px;
+}
+
+.formLabel {
+  font-size: var(--font-size-x-small);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.formButtons {
+  margin: 6px 10px;
+}
+
+.content {
+  margin: 10px;
+}
+
+.submitButton {
+  width: 100px;
+  min-width: 60px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.closeButton {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.formColumn {
+  width: 32%;
+}
+
+.formRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.moduleSelector {
+  min-height: calc(1.5em + .5rem + 2px);
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.addButton {
+  margin-left: 5px;
+}

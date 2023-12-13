@@ -1,0 +1,32 @@
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+  background-color: white;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  height: var(--small-header-height);
+  background-color: rgba(0, 0, 0, .03);
+  border-bottom: var(--border-style);
+}
+
+.headerTitle {
+  font-weight: var(--text-weight-bold);
+  flex-grow: 1;
+  margin: auto;
+  text-align: center;
+}
+
+.hiddenContent {
+  composes: content;
+  display: none;
+}
+
+.closeButton {
+  margin: auto 10px;
+}

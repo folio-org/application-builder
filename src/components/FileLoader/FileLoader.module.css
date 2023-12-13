@@ -1,0 +1,8 @@
+.upload {
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadButton {
+  width: 100%;
+}

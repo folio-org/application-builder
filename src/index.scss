@@ -1,0 +1,58 @@
+@import "./styles/variables";
+@import "./styles/global";
+
+* {
+  animation-duration: 0s !important;
+}
+
+.ant-modal-content {
+  padding: 2px !important;
+}
+
+.ant-modal-header {
+  min-height: var(--small-header-height);
+  align-items: center;
+  display: flex;
+  align-content: flex-start;
+  padding-left: 12px;
+  margin-bottom: 0 !important;
+  border-bottom: var(--border-style);
+}
+
+.ant-modal-footer {
+  margin-top: 0 !important;
+  padding-right: 12px;
+  align-items: center;
+  min-height: var(--small-header-height);
+  flex-direction: row-reverse;
+  display: flex;
+  border-top: var(--border-style);
+}
+
+.ant-notification-notice {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ant-notification-notice-description {
+  font-size: var(--font-size-small) !important;
+}
+
+.ant-notification-notice-message {
+  font-size: var(--font-size-medium) !important;
+}
+
+.ant-form-item-label {
+  font-weight: var(--text-weight-medium);
+  padding-bottom: 0 !important;
+}
+
+.ant-form-item-label label {
+  font-size: var(--font-size-small) !important;
+}
+
+b {
+  font-weight: 500;
+}
+
+

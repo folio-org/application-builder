@@ -1,0 +1,81 @@
+@import "normalize.css";
+
+html {
+  font-size: 87.5%;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  color: var(--color-text);
+  letter-spacing: 0.04em;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body,
+  html {
+    font-family: sans-serif;
+  }
+}
+
+/* global "print" styles below was added for solve the problem with extra blank page generating on printing in all modules */
+@media print {
+  html, body {
+    margin: 0 !important;
+  }
+
+  @page {
+    margin: var(--page-margin-default);
+  }
+}
+
+:global(.fullWidth) {
+  width: 100% !important;
+}
+
+:global(.marginTop0) {
+  margin-top: 0 !important;
+}
+
+:global(.marginBottom0) {
+  margin-bottom: 0 !important;
+}
+
+:global(.marginBottomHalf) {
+  margin-bottom: 0.5rem !important;
+}
+
+:global(.marginTopHalf) {
+  margin-top: 0.5rem !important;
+}
+
+:global(.floatEnd) {
+  float: right !important;
+}
+
+:global(.sr-only) {
+  position: fixed;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+  border: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+:global(.tether-element) {
+  z-index: 9999;
+}
+
+:global(.editor-preview *) {
+  margin: 0;
+}
+
+:global(body[dir="rtl"] .floatEnd),
+:global(html[dir="rtl"] .floatEnd) {
+  float: left !important;
+}

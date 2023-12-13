@@ -1,0 +1,16 @@
+.textBlock {
+  overflow: auto;
+  position: relative;
+}
+
+.jsonCode {
+  font-size: var(--font-size-x-small);
+  line-height: 1.1rem;
+  user-select: text;
+}
+
+.copyButton {
+  position: absolute;
+  right: 10px;
+  top: 10px
+}

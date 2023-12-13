@@ -1,0 +1,27 @@
+.interfaces {
+  margin: 0;
+}
+
+.tag {
+  margin-bottom: 7px;
+}
+
+.requiredTag {
+  border: 1px solid;
+  margin-bottom: 7px;
+}
+
+.h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.h5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

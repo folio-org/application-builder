@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadButton {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.searchOptionsDropdown {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.queryInput {
+  margin-top: 10px;
+}
+
+.authInput {
+  margin-top: 5px;
+}

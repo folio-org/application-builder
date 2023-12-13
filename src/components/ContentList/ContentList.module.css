@@ -1,0 +1,43 @@
+.contentList {
+  background-color: white;
+  flex-grow: 1;
+  min-width: 400px;
+  overflow: auto;
+}
+
+.header {
+  min-height: var(--small-header-height);
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .03);
+  border-bottom: var(--border-style);
+}
+
+.headerTitle {
+  flex-grow: 1;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.recordsCountTitle {
+  margin: 0;
+  text-align: center;
+  color: rgba(0,0,0,.62);
+  line-height: 1.2;
+  font-size: var(--font-size-x-small);
+}
+
+.contentTypeName {
+  margin: 0;
+  color: #000;
+  text-align: center;
+  line-height: 1.2;
+  justify-content: center;
+  font-size: var(--font-size-medium);
+  font-weight: var(--text-weight-bold);
+}
+
+.actionButton {
+  margin: auto 10px auto 10px;
+}

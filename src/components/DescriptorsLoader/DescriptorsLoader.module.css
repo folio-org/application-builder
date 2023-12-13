@@ -1,0 +1,33 @@
+.modalContentLayout {
+  display: flex;
+  background: white;
+  height: calc(80vh - var(--header-height));
+}
+
+.radioButtonGroup {
+  display: flex;
+}
+
+.radioButtonGroup label {
+  flex: 1;
+}
+
+.loadForm {
+  width: 100%;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.clearValuesButton {
+  width: 100%;
+}
+
+.addValuesButton {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.controlButtons {
+  align-self: flex-end;
+  margin-top: 40px;
+}
