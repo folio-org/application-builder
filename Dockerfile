@@ -1,4 +1,4 @@
-FROM nginx:1.23.4-alpine3.17-slim
+FROM nginx:1.27.1-alpine3.20-slim
 
 COPY /build/ /var/folio/application-builder
 COPY ./nginx-conf/nginx.conf /etc/nginx/
