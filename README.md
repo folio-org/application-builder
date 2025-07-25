@@ -1,6 +1,9 @@
 # application-builder
 Application builder tool
 
+# Deprecated
+This project has gone unmaintaind for some time, and is out of date.  Since there are no plans to dust this off and make improvements, it has been deprecated/archived.
+
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
